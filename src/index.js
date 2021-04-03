@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HeroesApp } from './HeroesApp';
 // import { HeroesApp } from './HeroesApp';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { AppRouter } from './routers/AppRouter';
+{/* <React.StrictMode> */ }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <AppRouter/> 
-  </React.StrictMode>,
+  <HeroesApp />,
   document.getElementById('root')
 );
 
