@@ -10,7 +10,7 @@ export const SearchScreen = ({ history }) => {
     const location = useLocation();
     const { q = '' } = queryString.parse(location.search);
 
-    const [searchHeroe, setsearchHeroe] = useState('');
+    const [searchHeroe, setsearchHeroe] = useState(q);
 
     const heroesFiltered = useMemo(() => getHeroesByName(q), [q]);
 

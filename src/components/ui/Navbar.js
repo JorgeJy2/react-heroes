@@ -10,7 +10,6 @@ export const Navbar = () => {
     const { user: { name }, dispatch } = useContext(AuthContext);
 
     const handleLogout = () => {
-        console.log('handdleLogout');
         dispatch({
             type: types.logout
         });

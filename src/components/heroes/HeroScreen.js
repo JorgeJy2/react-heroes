@@ -19,11 +19,8 @@ export const HeroScreen = ({ history }) => {
         characters
     } = heroe;
 
-    console.log(heroe);
-
     const handleReturn = () => {
 
-        
         if (history.length <= 2)
             history.push('/');
         else

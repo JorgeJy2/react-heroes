@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in card should snaptshot 1`] = `
+<div
+  className="card ms-3"
+  style={
+    Object {
+      "maxWidth": 540,
+    }
+  }
+>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-4"
+    >
+      <img
+        alt="Name"
+        className="card-img"
+        src="./assets/heroes/1.jpg"
+      />
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="card-title"
+        >
+           
+          Name
+           
+        </h5>
+        <p
+          className="card-text"
+        >
+           
+          None
+           
+        </p>
+        <p
+          className="card-text"
+        >
+          fly
+           
+        </p>
+        <p
+          className="card-text"
+        >
+          <small
+            className="text-muted"
+          >
+            Today
+          </small>
+        </p>
+        <Link
+          to="./heroe/1"
+        >
+          More
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;
